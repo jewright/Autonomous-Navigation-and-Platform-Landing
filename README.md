@@ -1,9 +1,8 @@
 # Autonomous Navigation using a Jackal UGV
-## Overview
+For furthering advancement toward autonomous navigation and platform landing, I utilized robotic programming and hardware.  
 
-
-### Hardware Used
-
+## Hardware Used
+For this project 
 
 
 ## Vicon 
@@ -26,12 +25,15 @@ The Jackal UGV and UAV both had ROS topics of the Vicon Motion Capture system. T
 ## Jackal UGV
 To further advance with autonomous Navigation, I began working with the Jackal UGV individually. The Vicon Motion Capture System allowed an understanding of the localization of objects, however, it was within a set environment. The Jackal UGV was now going to be used to 
 ### Hardware
-The Jackal UGV that I have has an onboard computer, 
+The Jackal UGV that I use  has an onboard computer that is fully integrated with ROS. Additionlly it has the clearpath ISO installed for the the computer and robotic hardware to communicate. 
+
+
+
+
 ### Installing ROS and Jackal Packages on Host PC
 
 ### Simulation using Gazebo and RViz
 
-### Reinstall Jackal UGV ISO
 
 
 
