@@ -1,8 +1,8 @@
 # Autonomous Navigation using a Jackal UGV
-For furthering advancement toward autonomous navigation and platform landing, I utilized robotic programming and hardware.  
+For furthering advancement toward autonomous navigation and platform landing, I implemented ROS onto robotic hardware and software. 
 
 ## Hardware Used
-For this project 
+For this project a variety of robotic
 
 
 ## Vicon 
