@@ -2,7 +2,12 @@
 For furthering advancement toward autonomous navigation and platform landing, I implemented ROS onto robotic hardware and software. 
 
 ## Hardware Used
-For this project a variety of robotic
+For this project a variety of hardware and robotic accessories were used: 
+- Vicon Motion Capture System
+- Clearpath Robotics JAckal UGV
+- UAV
+- Point Grey Bumbleebee2 Stereo Vision Camera
+- Hokuyo UST-10LX 2D LiDAR Sensor
 
 
 ## Vicon 
