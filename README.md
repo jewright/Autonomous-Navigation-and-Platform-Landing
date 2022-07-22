@@ -27,20 +27,10 @@ To begin the usage of Vicon, the cameras must be calibrated. A wand provided for
 ### Object Identification 
 Object identification is an esstencial to provide an interaction between the Vicon system, Jackal UGV, and UAV. The Jackal and UAV both had reflective markers on top of them in order for the Vicon system to recognize and locate them in the environment. Within the Vicon tracker software, you're able to highlight over them and create new objects with their names assigned. This allows for the location data to be communicated when you launch scripts.  
 
-### Interaction 
-For interaction between the hardware, Wi-Fi is used for Vicon to launch through the onboard computer within the Jackal UGV. This interaction allows the data from the Jackal UGV to be obtained and recorded. For behavioral control of the UGV, Python, and ROS are used for programming implementations. I wrote many scripts for directional movements and routes, such as a linear and square. Additionally, I created a personalized map of the lab environment used for this project. 
 
-Vicon, a motion capture system, was utilized in the beggining of this project to learn position and localization. The Vicon specified environment was used to obtain the location of the Jackal UGV and a UAV.  
-
-
-
-
-
-### Object Identification and Interaction. 
-Object identification is an esstencial to provide an interaction between the Vicon system, Jackal UGV, and UAV. The Jackal and UAV both had reflective markers on top of them in order for the Vicon system to recognize and locate the two. Within the Vicon tracker software, you're able to highlight over them and create new objects with their names assigned. This allows for the location data to be communicated when you launch scripts.  
 
 ### Scripts
-The Jackal UGV and UAV both had ROS topics of the Vicon Motion Capture system. This was done with the usage of a ROS launch file. Once the location communication was set, I created and wrote several programs for different trajectories for the Vicon environment. Each program application provided a scenario for the UAV to land on the platform while in motion. 
+For behavioral control of the UGV and UAV, Python, and ROS are used for programming implementations. The Jackal UGV and UAV both had ROS topics of the Vicon Motion Capture system. This was done with the usage of a ROS launch file. Once the location communication was set, I created and wrote several programs for different trajectories for the Vicon environment. Each program application provided a scenario for the UAV to land on the platform while in motion. 
 
 
 ## Jackal UGV
@@ -91,3 +81,5 @@ The Jackal UGV was used as the platform landing for the UAV.
 <p align="center">
 
 </p>
+
+
