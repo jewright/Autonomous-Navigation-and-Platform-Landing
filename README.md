@@ -1,4 +1,4 @@
-# Autonomous Navigation with a Jackal UGV
+# Autonomous Navigation using a Jackal UGV
 ## Overview
 
 
