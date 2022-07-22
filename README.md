@@ -7,12 +7,11 @@
 
 
 ## Vicon 
-Vicon
+Vicon, a motion capture system, was utilized in the beggining of this project to learn position and localization. The Vicon specified environment was used to obtain the location of the Jackal UGV and a UAV.  
 
 
-
-### Camera Calibration
-
+### Camera Calibration and Object Identification. 
+To begin the usage of Vicon, the cameras must be calibrated. A wand provided for the system has flashing red LEDs
 
 ### Interacting with Jackal UGV and UAV
 
