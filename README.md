@@ -29,10 +29,10 @@ To begin the usage of Vicon, camera calibration is required. A wand provided for
 Object identification is an essential to provide an interaction between the Vicon system, Jackal UGV, and UAV. The Jackal and UAV both had reflective markers on top of them for the Vicon system to recognize and locate them in the environment. Within the Vicon tracker software, you're able to highlight over them and create new objects with their names assigned. This allows for the location data to be communicated when you launch scripts.  
 
 
-
 ### Scripts
 For behavioral control of the UGV and UAV, Python, and ROS are used for programming implementations. The Jackal UGV and UAV both had ROS topics of the Vicon Motion Capture system. This was done with the usage ROS launch files. Once the location communication was set, I created and wrote several programs for different trajectories for the Vicon environment. Each program application provided a scenario for the UAV to land on the platform while in motion. 
 
+![IMG_8648](https://user-images.githubusercontent.com/98404383/180620686-0ae67176-34ef-4a5e-9fc4-4a7e92de694d.JPG)
 
 ## Jackal UGV
 To further advance with autonomous Navigation, I began working with the Jackal UGV individually. The Vicon Motion Capture System allowed an understanding of the localization of objects; however, it was within a set environment. 
@@ -43,6 +43,7 @@ Before working with the physical Jackal, I created a simulation using Gazebo and
 ### Hardware
 The Jackal UGV used has an onboard computer that is fully integrated with ROS. Before working with physical Jackal’s accessories, I determine it was useful to  completely reset the Jackal’s OS. By setting everything to default, I was able to make it as configurable as I wanted. After these resetting changes, I connected a PS4 controller to manually control the Jackal and successfully confirmed  that everything was installed correctly in conjunction with the  default robot configurations. 
 
+![IMG_8572](https://user-images.githubusercontent.com/98404383/180620659-3107d30c-19c9-4ca4-9d30-38d19a575836.jpeg)
 
 After confirming proper functionality, I added additional Accessories. This included a Point Grey Bumblebee2 and a Hokuyo UST-10LX. The Bumbleebee2 is a Stereo Vision Camera and the UST-10LX is a 2D LiDAR. After the proper network configuration of the host PC and Jackal, I was able to source the Jackal UGV to reflect its activity onto the PC. 
 
