@@ -1,6 +1,7 @@
 # Autonomous Navigation using a Jackal UGV
 For furthering advancement toward autonomous navigation and platform landing, I implemented ROS onto robotic hardware and software. The ROS distribution used as melodic along with Ubuntu 18.04 on the Host PC used for this project.
 
+
 ## Hardware Used
 For this project a variety of hardware and robotic accessories were used: 
 - Host Ubuntu PC
@@ -13,9 +14,10 @@ For this project a variety of hardware and robotic accessories were used:
 
 ## Vicon 
 
-
-
 Vicon, a motion capture system, was utilized in the beggining of this project to learn position and localization.It was capable and provided the location of the JAckal UGV and UAV within the specified environment. The Vicon system requires camera calibration and object identification to work alongside the Jackal UGV and the UAV. 
+
+![IMG_8583](https://user-images.githubusercontent.com/98404383/180619211-24f69084-b1b5-4e40-af47-c23451be8419.jpeg)
+
 
 ### Camera Calibration 
 To begin the usage of Vicon, the cameras must be calibrated. A wand provided for the system has flashing red LEDs and you must walk around and wave it until the cameras no longer blink. You then have to place the wand flat on the ground to set the orgin of the environment.
@@ -35,9 +37,9 @@ For behavioral control of the UGV and UAV, Python, and ROS are used for programm
 
 ## Jackal UGV
 To further advance with autonomous Navigation, I began working with the Jackal UGV individually. The Vicon Motion Capture System allowed an understanding of the localization of objects, however, it was within a set environment. The Jackal UGV was now going to be used to 
-### Hardware
-The Jackal UGV that I use  has an onboard computer that is fully integrated with ROS. Additionlly it has the clearpath ISO installed for the the computer and robotic hardware to communicate. 
 
+### Hardware
+The Jackal UGV used has an onboard computer that is fully integrated with ROS. Additionally, there is a Point Grey Bumblebee2 and a Hokuyo UST-10LX. The Bumbleebee2 is a Stereo Vision Camera and the UST-10LX is a 2D LiDAR. Using the host pc, I am able to source the Jackal UGV so that the output reflects the activity from the Jackal. 
 
 
 
@@ -53,9 +55,6 @@ The Jackal UGV that I use  has an onboard computer that is fully integrated with
 
 ### Controlling Jackal 
 
-### Bumblebee2 (Stereo Vision Camera)
-
-### Hokuyo UST-10LX (2D LiDAR sensor) 
 
 
 
