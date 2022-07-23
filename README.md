@@ -6,7 +6,7 @@ For furthering advancement toward autonomous navigation and platform landing, I 
 For this project a variety of hardware and robotic accessories were used: 
 - Host Ubuntu PC
 - Vicon Motion Capture System
-- Clearpath Robotics JAckal UGV
+- Clearpath Robotics Jackal UGV
 - UAV
 - Point Grey Bumbleebee2 Stereo Vision Camera
 - Hokuyo UST-10LX 2D LiDAR Sensor
@@ -14,71 +14,36 @@ For this project a variety of hardware and robotic accessories were used:
 
 ## Vicon 
 
-Vicon, a motion capture system, was utilized in the beggining of this project to learn position and localization.It was capable and provided the location of the JAckal UGV and UAV within the specified environment. The Vicon system requires camera calibration and object identification to work alongside the Jackal UGV and the UAV. 
-
-![IMG_8583](https://user-images.githubusercontent.com/98404383/180619211-24f69084-b1b5-4e40-af47-c23451be8419.jpeg)
+Vicon, a motion capture system, was utilized in the beginning of this project to learn position and localization. It provided the location of the Jackal UGV and UAV within the specified environment. 
 
 
 ### Camera Calibration 
-To begin the usage of Vicon, the cameras must be calibrated. A wand provided for the system has flashing red LEDs and you must walk around and wave it until the cameras no longer blink. You then have to place the wand flat on the ground to set the orgin of the environment.
-
-![IMG_8652](https://user-images.githubusercontent.com/98404383/180495459-b36c5bf2-4d38-4bd5-bdef-b6bb3eecb491.jpeg) 
+To begin the usage of Vicon, camera calibration is required. A wand provided for the system has flashing red LEDs and you must walk around and wave it until the cameras no longer blinks. You then must place the wand flat on the ground to set the origin of the environment.
 
 
 
 ### Object Identification 
-Object identification is an esstencial to provide an interaction between the Vicon system, Jackal UGV, and UAV. The Jackal and UAV both had reflective markers on top of them in order for the Vicon system to recognize and locate them in the environment. Within the Vicon tracker software, you're able to highlight over them and create new objects with their names assigned. This allows for the location data to be communicated when you launch scripts.  
+Object identification is an essential to provide an interaction between the Vicon system, Jackal UGV, and UAV. The Jackal and UAV both had reflective markers on top of them for the Vicon system to recognize and locate them in the environment. Within the Vicon tracker software, you're able to highlight over them and create new objects with their names assigned. This allows for the location data to be communicated when you launch scripts.  
 
 
 
 ### Scripts
-For behavioral control of the UGV and UAV, Python, and ROS are used for programming implementations. The Jackal UGV and UAV both had ROS topics of the Vicon Motion Capture system. This was done with the usage of a ROS launch file. Once the location communication was set, I created and wrote several programs for different trajectories for the Vicon environment. Each program application provided a scenario for the UAV to land on the platform while in motion. 
+For behavioral control of the UGV and UAV, Python, and ROS are used for programming implementations. The Jackal UGV and UAV both had ROS topics of the Vicon Motion Capture system. This was done with the usage ROS launch files. Once the location communication was set, I created and wrote several programs for different trajectories for the Vicon environment. Each program application provided a scenario for the UAV to land on the platform while in motion. 
 
 
 ## Jackal UGV
-To further advance with autonomous Navigation, I began working with the Jackal UGV individually. The Vicon Motion Capture System allowed an understanding of the localization of objects, however, it was within a set environment. The Jackal UGV was now going to be used to 
+To further advance with autonomous Navigation, I began working with the Jackal UGV individually. The Vicon Motion Capture System allowed an understanding of the localization of objects; however, it was within a set environment. 
+
+Before working with the physical Jackal, I created a simulation using Gazebo and Rviz on the host PC using ROS Melodic. Using Gazebo alongside RViz, I generated a unique map of the simulated room using the configuration of lidar sensors on a Jackal UGV. Utilizing multiple ROS tools, which included Navigation Stack, SLAM, Gmapping, Localization, and Visualization the map served as a guide for the testing and validation. 
+
 
 ### Hardware
-The Jackal UGV used has an onboard computer that is fully integrated with ROS. Additionally, there is a Point Grey Bumblebee2 and a Hokuyo UST-10LX. The Bumbleebee2 is a Stereo Vision Camera and the UST-10LX is a 2D LiDAR. Using the host pc, I am able to source the Jackal UGV so that the output reflects the activity from the Jackal. 
+The Jackal UGV used has an onboard computer that is fully integrated with ROS. Before working with physical Jackal’s accessories, I determine it was useful to  completely reset the Jackal’s OS. By setting everything to default, I was able to make it as configurable as I wanted. After these resetting changes, I connected a PS4 controller to manually control the Jackal and successfully confirmed  that everything was installed correctly in conjunction with the  default robot configurations. 
+
+
+After confirming proper functionality, I added additional Accessories. This included a Point Grey Bumblebee2 and a Hokuyo UST-10LX. The Bumbleebee2 is a Stereo Vision Camera and the UST-10LX is a 2D LiDAR. After the proper network configuration of the host PC and Jackal, I was able to source the Jackal UGV to reflect its activity onto the PC. 
 
 
 
-### Installing ROS and Jackal Packages on Host PC
-
-### Simulation using Gazebo and RViz
-
-
-
-
-
-### Network Configuration of the Jackal and Host PC
-
-### Controlling Jackal 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Vicon Motion Capture System
-Vicon, which is a motion capture system, was utilized in the beginning to learn the position and location of the UGV in a specified environment within the lab. The Vicon system required camera calibration and object identification to work alongside the Jackal UGV. For interaction between the two, Wi-Fi is used for Vicon to launch through the onboard computer within the Jackal UGV. This interaction allows the data from the Jackal UGV to be obtained and recorded. For behavioral control of the UGV, Python, and ROS are used for programming implementations. I wrote many scripts for directional movements and routes, such as a linear and square. Additionally, I created a personalized map of the lab environment used for this project. 
-
-The Jackal UGV was used as the platform landing for the UAV. 
-
-
-<p align="center">
-
-</p>
 
 
