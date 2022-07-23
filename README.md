@@ -16,10 +16,13 @@ For this project a variety of hardware and robotic accessories were used:
 
 Vicon, a motion capture system, was utilized in the beginning of this project to learn position and localization. It provided the location of the Jackal UGV and UAV within the specified environment. 
 
+![IMG_8583](https://user-images.githubusercontent.com/98404383/180620543-3a49abf8-dbef-47d9-b884-f273d11532b7.jpeg)
+
 
 ### Camera Calibration 
 To begin the usage of Vicon, camera calibration is required. A wand provided for the system has flashing red LEDs and you must walk around and wave it until the cameras no longer blinks. You then must place the wand flat on the ground to set the origin of the environment.
 
+![IMG_8652](https://user-images.githubusercontent.com/98404383/180620554-91ecd706-19f4-41d0-904d-86bfed7c094c.jpeg)
 
 
 ### Object Identification 
