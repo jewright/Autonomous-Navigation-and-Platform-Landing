@@ -54,12 +54,14 @@ Before working with the physical Jackal, I created a simulation using Gazebo and
 
 
 ### Hardware
-The Jackal UGV used has an onboard computer that is fully integrated with ROS. Before working with physical Jackal’s accessories, I determine it was useful to  completely reset the Jackal’s OS. By setting everything to default, I was able to make it as configurable as I wanted. After these resetting changes, I connected a PS4 controller to manually control the Jackal and successfully confirmed  that everything was installed correctly in conjunction with the  default robot configurations. 
+The Jackal UGV used has an onboard computer that is fully integrated with ROS. Before working with physical Jackal’s accessories, I determine it was useful to  completely reset the Jackal’s OS. By setting everything to default, I was able to make it as configurable as I wanted. After these resetting changes, I connected a PS4 controller to manually control the Jackal and successfully confirmed everything was installed correctly in conjunction with the  default robot configurations. 
 
 
+![IMG_8574](https://user-images.githubusercontent.com/98404383/180629410-eeb4ef37-c50d-4bf4-a994-60cd93fb1679.png)
 
 
 After confirming proper functionality, I added additional Accessories. This included a Point Grey Bumblebee2 and a Hokuyo UST-10LX. The Bumbleebee2 is a Stereo Vision Camera and the UST-10LX is a 2D LiDAR. After the proper network configuration of the host PC and Jackal, I was able to source the Jackal UGV to reflect its activity onto the PC. 
 
-![IMG_8575](https://user-images.githubusercontent.com/98404383/180629056-81ad35f6-1f39-4d30-9457-fdf04ca365f9.png)
+
+https://user-images.githubusercontent.com/98404383/180629384-1bc176bd-ec11-4c7b-8740-de0aecf23989.mp4
 
