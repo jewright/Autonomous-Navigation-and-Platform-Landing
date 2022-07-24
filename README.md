@@ -19,7 +19,7 @@ Vicon, a motion capture system, was utilized at the beginning of this project to
 ### Camera Calibration 
 Vicon requires camera calibration for use. A wand provided for the system has flashing red LEDs. You must then walk around and wave it until the cameras no longer blink. You then must place the wand flat on the ground to set the origin of the environment.
 <p align="center">
-  <img width="300" height="400" src="https://user-images.githubusercontent.com/98404383/180650846-1d45d3f8-39f3-4104-a94e-0d3e42091bd6.png"
+  <img width="300"  alt="CameraCalibrationWand" src="https://user-images.githubusercontent.com/98404383/180650846-1d45d3f8-39f3-4104-a94e-0d3e42091bd6.png"
   
 </p>
 
@@ -48,7 +48,7 @@ Working individually with the Jackal UGV, I was able to advance autonomous navig
 Before working with the physical Jackal, I created a simulation using Gazebo and Rviz on the host PC using ROS Melodic. Using Gazebo alongside RViz, I generated a unique map of the simulated room using the configuration of lidar sensors on a Jackal UGV. Utilizing multiple ROS tools, which included navigation stack, SLAM, gmapping, localization, and visualization, the map served as a guide for the testing and validation. 
 
 
-<img width="1622" alt="Screen Shot 2022-07-06 at 6 40 35 PM" src="https://user-images.githubusercontent.com/98404383/180628936-ef11a5c6-ed48-4cbc-bbfe-c99b213a7054.png">
+<img width="600" alt="SimulationMap" src="https://user-images.githubusercontent.com/98404383/180628936-ef11a5c6-ed48-4cbc-bbfe-c99b213a7054.png">
 
 
 
