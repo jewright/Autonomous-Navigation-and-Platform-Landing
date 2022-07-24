@@ -1,9 +1,9 @@
 # Autonomous Navigation and Platform Landing
-This project is to further advancements in autonomous navigation and platform landing. Using ROS, I programmed robotic hardware and software. The ROS distribution used was melodic along with Ubuntu 18.04. Additionally, I used a UGV, UAV, and a Motion Capture system.                                                                                               
+This project is to further advancements in autonomous navigation and platform landing. Using ROS Melodic I programmed robotic hardware and software. Additionally, I used a UGV, UAV, and a Motion Capture system.                                                                                               
 
 ## Hardware Used
 This project used a variety of hardware and robotic accessories: 
-- Host Ubuntu PC
+- Host Ubuntu 18.04 PC
 - Vicon Motion Capture System
 - Clearpath Robotics Jackal UGV
 - UAV
