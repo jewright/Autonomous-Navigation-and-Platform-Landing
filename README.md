@@ -18,7 +18,6 @@ Vicon, a motion capture system, was utilized at the beginning of this project to
 Vicon requires camera calibration for use. A wand provided for the system has flashing red LEDs. You must then walk around and wave it until the cameras no longer blink. You then must place the wand flat on the ground to set the origin of the environment.
 <p align="center">
   <img width="300"  alt="CameraCalibrationWand" src="https://user-images.githubusercontent.com/98404383/180650846-1d45d3f8-39f3-4104-a94e-0d3e42091bd6.png"
-  
 </p>
 
 ### Object Identification 
@@ -26,14 +25,13 @@ Object identification is essential to provide an interaction between the Vicon s
 
 <p align="center">
   <img width="300"  alt="ReflectiveMarkers" src="https://user-images.githubusercontent.com/98404383/180620686-0ae67176-34ef-4a5e-9fc4-4a7e92de694d.JPG"
-  
 </p>
 
 
 ### Scripts
 Using ROS and Python, I created programs to control the behavior of the UGV and UAV. They both had  ROS topics of the Vicon Motion Capture system with the usage of ROS launch files. Using the location data, I created and wrote several programs for different trajectories for the Vicon environment. Each program application provided a scenario for the UAV to land on the platform while in motion. 
 
-https://user-images.githubusercontent.com/98404383/180629362-b7529f71-5982-4102-8732-fd885f3d8a86.mp4
+https://user-images.githubusercontent.com/98404383/180651418-a4ec025d-ac18-4f23-a86f-16258a34190a.mp4
 
 
 ## Using Jackal UGV for Autonomous Navigation 
@@ -43,10 +41,9 @@ Working individually with the Jackal UGV, I was able to advance autonomous navig
 ### Simulation
 Before working with the physical Jackal, I created a simulation using Gazebo and Rviz on the host PC using ROS Melodic. Using Gazebo alongside RViz, I generated a unique map of the simulated room using the configuration of lidar sensors on a Jackal UGV. Utilizing multiple ROS tools, which included navigation stack, SLAM, gmapping, localization, and visualization, the map served as a guide for the testing and validation. 
 
-
+<p align="center">
 <img width="600" alt="SimulationMap" src="https://user-images.githubusercontent.com/98404383/180628936-ef11a5c6-ed48-4cbc-bbfe-c99b213a7054.png"
 </p>
-
 
 ### Hardware
 The Jackal UGV used has an onboard computer fully integrated with ROS. Before working with physical Jackal’s accessories, I determined it was best to reset Jackal’s operating system. By setting everything to default, I could make it as configurable as I wanted. After these resetting changes, I connected a PS4 controller for manual control. 
@@ -55,9 +52,9 @@ The Jackal UGV used has an onboard computer fully integrated with ROS. Before wo
 <img width="400"  alt="JackalHardware" src="https://user-images.githubusercontent.com/98404383/180629410-eeb4ef37-c50d-4bf4-a994-60cd93fb1679.png"
 </p>
 
-
 After confirming proper functionality, I added additional Accessories. The Jackal had two accessories, a Point Grey Bumblebee2 (Stereo Vision Camera) and a Hokuyo UST-10LX (2D LiDAR). After the proper network configuration of the host PC and Jackal, I sourced the Jackal UGV to reflect its activity onto the PC. I could see everything the Jackal UGV was doing through software such as RViz, RQT robot monitor, and Raw Image streams. 
 
+https://user-images.githubusercontent.com/98404383/180651489-c08084b3-e118-4d0a-8091-3e871698f41d.mp4
 
 
-https://user-images.githubusercontent.com/98404383/180629384-1bc176bd-ec11-4c7b-8740-de0aecf23989.mp4
+
