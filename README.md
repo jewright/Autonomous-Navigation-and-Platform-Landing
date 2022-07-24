@@ -18,9 +18,10 @@ Vicon, a motion capture system, was utilized at the beginning of this project to
 
 ### Camera Calibration 
 Vicon requires camera calibration for use. A wand provided for the system has flashing red LEDs. You must then walk around and wave it until the cameras no longer blink. You then must place the wand flat on the ground to set the origin of the environment.
-
-![IMG_8652](https://user-images.githubusercontent.com/98404383/180620554-91ecd706-19f4-41d0-904d-86bfed7c094c.jpeg)
-
+<p align="center">
+  <img width="300" height="400" src="https://user-images.githubusercontent.com/98404383/180650846-1d45d3f8-39f3-4104-a94e-0d3e42091bd6.png"
+  
+</p>
 
 ### Object Identification 
 Object identification is essential to provide an interaction between the Vicon system, Jackal UGV, and UAV. The Jackal and UAV had reflective markers on top for the Vicon system to recognize and locate them in the environment. Within the Vicon Tracker software, you create new objects then the location data can communicate when you launch scripts.  
@@ -48,6 +49,7 @@ Before working with the physical Jackal, I created a simulation using Gazebo and
 
 
 <img width="1622" alt="Screen Shot 2022-07-06 at 6 40 35 PM" src="https://user-images.githubusercontent.com/98404383/180628936-ef11a5c6-ed48-4cbc-bbfe-c99b213a7054.png">
+
 
 
 ### Hardware
