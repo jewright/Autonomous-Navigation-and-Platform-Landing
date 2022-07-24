@@ -1,5 +1,5 @@
 # Autonomous Navigation and Platform Landing
-This project is to further advancements in autonomous navigation and platform landing. Using ROS Melodic I programmed robotic hardware and software. I used Vicon Motion Capture System, Jackal UGV, and a UAV.                                                                                               
+This project is to further advancements in autonomous navigation and platform landing. Using a Vicon Motion Capture System, a Jackal UGV, and a UAV, I applied ROS to program robotic hardware and software.                                                                                             
 
 ## Hardware Used
 This project used a variety of hardware and robotic accessories: 
