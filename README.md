@@ -34,8 +34,8 @@ For behavioral control of the UGV and UAV, Python, and ROS are used for programm
 
 ![IMG_8648](https://user-images.githubusercontent.com/98404383/180620686-0ae67176-34ef-4a5e-9fc4-4a7e92de694d.JPG)
 
-## Jackal UGV
-To further advance with autonomous Navigation, I began working with the Jackal UGV individually. The Vicon Motion Capture System allowed an understanding of the localization of objects; however, it was within a set environment. 
+## Using Jackal UGV for Autonomous Navigation 
+To further advance with autonomous navigation, I began working with the Jackal UGV individually. The Vicon Motion Capture System allowed an understanding of the localization of objects; however, it was within a set environment. 
 
 Before working with the physical Jackal, I created a simulation using Gazebo and Rviz on the host PC using ROS Melodic. Using Gazebo alongside RViz, I generated a unique map of the simulated room using the configuration of lidar sensors on a Jackal UGV. Utilizing multiple ROS tools, which included Navigation Stack, SLAM, Gmapping, Localization, and Visualization the map served as a guide for the testing and validation. 
 
