@@ -1,5 +1,5 @@
-# Autonomous Navigation using a Jackal UGV
-For furthering advancement toward autonomous navigation and platform landing, I implemented ROS onto robotic hardware and software. The ROS distribution used as melodic along with Ubuntu 18.04 on the Host PC used for this project.
+# Autonomous Navigation and Platform Landing
+For furthering advancement toward autonomous navigation and platform landing, I utilized ROS to program robotic hardware and software. The ROS distribution used was melodic along with Ubuntu 18.04. Additionally, I used a UGV, UAV, and a Motion Capture Stystem.                                                                                               
 
 
 ## Hardware Used
