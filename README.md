@@ -54,7 +54,7 @@ The Jackal UGV used has an onboard computer fully integrated with ROS. Before wo
 
 After confirming proper functionality, I added additional Accessories. The Jackal had two accessories, a Point Grey Bumblebee2 (Stereo Vision Camera) and a Hokuyo UST-10LX (2D LiDAR). After the proper network configuration of the host PC and Jackal, I sourced the Jackal UGV to reflect its activity onto the PC. I could see everything the Jackal UGV was doing through software such as RViz, RQT robot monitor, and Raw Image streams. 
 
-Below is an image of the Bumblebee2 camera calibration process and a video of the camera view while driving the Jackal.
+Below is an image of the Bumblebee2 camera calibration process along with a video of the camera view while driving the Jackal.
 
 <p align="center">
 <img width="758" alt="Camera Calibration" src="https://user-images.githubusercontent.com/98404383/208020166-02d27739-76e7-4bd0-8487-1f704339503a.png">
