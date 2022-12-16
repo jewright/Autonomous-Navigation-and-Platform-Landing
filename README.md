@@ -56,8 +56,9 @@ After confirming proper functionality, I added additional Accessories. The Jacka
 
 Below is an image of the camera calibration process and a video of the camera view while driving the Jackal.
 
-<img width="1083" alt="Screenshot 2022-12-15 at 11 07 10 PM" src="https://user-images.githubusercontent.com/98404383/208020166-02d27739-76e7-4bd0-8487-1f704339503a.png">
-
+<p align="center">
+<img width="1083" alt="Camera Calibration" src="https://user-images.githubusercontent.com/98404383/208020166-02d27739-76e7-4bd0-8487-1f704339503a.png">
+</p>
 
 https://user-images.githubusercontent.com/98404383/180651489-c08084b3-e118-4d0a-8091-3e871698f41d.mp4
 
