@@ -62,5 +62,13 @@ Below is an image of the Bumblebee2 camera calibration process along with a vide
 
 https://user-images.githubusercontent.com/98404383/180651489-c08084b3-e118-4d0a-8091-3e871698f41d.mp4
 
+### Creating Launch File
+Since I had been launching multiple packages through the terminal to get everything set up, I created a launch file with all packages needed. The combined launch file was a merge of the joy package and all of the packages needed for the bumblebee2 camera. I kept the Hokuyo laser launch separate since it required IP configuration and was likely to experience errors. 
+
+The combined launchfile is found at:
+```shell
+cd jackal2_ws/src/combine_launch/launch/combined_launch.launch
+```
+
 
 

@@ -1,0 +1,8 @@
+prefix=/home/administrator/jackal2_ws/devel
+
+Name: combine_launch
+Description: Description of combine_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

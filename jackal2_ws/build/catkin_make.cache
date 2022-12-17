@@ -1,0 +1,2 @@
+combine_launch:jackal/jackal_control:jackal/jackal_description:jackal/jackal_msgs:jackal/jackal_navigation:jackal/jackal_tutorials:jackal_robot/jackal_base:jackal_robot/jackal_bringup:jackal_robot/jackal_robot
+-DCATKIN_DEVEL_PREFIX=/home/administrator/jackal2_ws/devel -DCMAKE_INSTALL_PREFIX=/home/administrator/jackal2_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/administrator/jackal2_ws/install
+
+Name: jackal_bringup
+Description: Description of jackal_bringup
+Version: 0.7.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
